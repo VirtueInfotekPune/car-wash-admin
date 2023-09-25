@@ -19,7 +19,7 @@ const AddStocks = () => {
     // e.preventDefault();
   
     try {
-      const response = await fetch('http://localhost:8000/api/stocks', {
+      const response = await fetch('https://car-wash-backend-api.onrender.com/api/stocks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
